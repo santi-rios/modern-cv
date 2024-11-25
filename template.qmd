@@ -1,27 +1,29 @@
 ---
-author: David Schoch
-title: R Developer
+author: Santiago G. Rios
+title: Experimental Behavior Analyst
 tagline: 
-  field1: David Schoch
-  field2: R Developer
-  field3: Cologne, Germany
-  colored: david@schochastics.net
-  field5: Cologne, Germany
+  field1: Santiago Garcia Rios
+  field2: Behavior Analyst
+  field3: Neurobiologist
+  colored: santiago_gr@ciencias.unam.mx
+  field5: Mexico City, Mexico
 format:
   modern-cv-pdf: default
 cvfooter:
-  left: "mr.schochastics.net"
-  right: "github.com/schochastics"
+  left: "https://santi-rios.github.io/"
+  right: "github.com/santi-rios"
 cvcolor: 	FF9600 #without `#`
 bgcolor: 616161
 cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvmeta:
   - title: Status
-    text: Team Lead for Transparent Social Analytics, GESIS
-  - title: Field
-    text: Software Engineering, Data Science
+    text: Masters degree (Neurobiology and behaviour) at National Autonomous University of Mexico
+  - title: Work
+    text: Statistics teacher with R in my own plataform orcaasesina.com
   - title: Techs
-    text: R, bash, Python, javascript, Lua
+    text: R, bash, Python, Docker, \LaTeX
+  - title: Language
+    text: English (C2), Spanish (Native)
 execute:
   echo: false
 ---
@@ -53,13 +55,40 @@ cvevents <- function(tbl, when, what, where, para1,para2) {
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details, ~para1, ~para2,
-    "Team Lead", "GESIS", "since 03/2022",
-    "Transparent Social Analytics, Department of Computational Social Science", "Coordination of a project to build an Open Science platform with reusable code and tutorials", "Implementation of tools to enhance reproducibility and facilitate research with digital data in R",
-    "Presidential Fellow", "University of Manchester", "2018 - 2022",
-    "Sociology Department", "Research on Disinformation on Social Media", "Analyses of large scale and unstructured data sets with R, Python and Bash",
-    "Post Doctoral Researcher", "ETH Zurich", "2017 - 2018", "Chair of Social Networks", "Developing new methods to analyze social networks", "Gathering and analyzing large datsets from Social Media APIs",
-    "Post Doctoral Researcher", "University of Konstanz", " 2015 - 2017", "Department of Computer & Information Science", "Developing new methods to analyze social networks", "Webscraping and harmonizing a large corpus of football data",
-    "Ph.D. Candidate", "University of Konstanz", "2012 - 2015", "Department of Computer & Information Science", "Developing new methods to analyze social networks", "Implementing methods in libraries"
+    "Development of data science techniques", 
+    "Masters at UNAM, Mexico City", 
+    "since 2022",
+    "Topology analysis of proteins", 
+    "Video Tracking of behaviour and develope apps to analysis using serverless R", 
+    "Implementation of statistical tools to enhance cognitive defficits in mice using R",
+
+    "Writing of Science comunication papers", 
+    "University of Manchester", 
+    "2021 - 2022",
+    "Nexos", 
+    "Writing about Science Methodology and mental dessease", 
+    "4 articles published",
+
+    "Researcher program", 
+    "Faculty of Medicine, UNAM, Mexico City", 
+    "2017 - 2020", 
+    "thesis", 
+    "Study brain injury and behavioural effects", 
+    "Results presented at international meeting Neuroscience, 2019 at Chicago, Ilinois",
+
+    "Short Research stay", 
+    "Neurobiology Institute, UNAM, Mexico City", 
+    "2015", 
+    "with Dr. Federico Ratonni", 
+    "Research program Younglings to Research",
+    "Study Cognition behaviour analysis using optogenetics techniques", 
+
+    "Short Research stay", 
+    "Cell Physiology Institute, UNAM, Mexico City", 
+    "2014", 
+    "with Dr. Jesus Adolfo Garcia Sainz", 
+    "Research program Younglings to Research",
+    "Study techniques and methods to analyze G-couples proteins" 
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", para1 = "para1", para2 = "para2")
 ```
@@ -71,8 +100,24 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~degree, ~uni, ~loc, ~dates, ~para1, ~para2,
-    "Ph.D. in Computer Science", "University of Konstanz", "Konstanz, Germany", "2012 - 2015", "Thesis: A Positional Approach for Network Centrality", "Developed and implemented new methods to assess network centrality",
-    "Diploma in Business Mathematics", "KIT", "Karlsruhe, Germany", "2006 - 2012", "Thesis: Modularity Maximization", "Implementation and comparison of different clustering algorithms using Matlab"
+    "Masters in Science", "National Autonomous University of Mexico", "National Autonomous University of Mexico", 
+    "2022 - 2024", 
+    "Thesis: Characterization of fluoxetine effects on behaviour and spatial learning in a mice model of mild stress", 
+    "Developed and implemented new methods to assess depressive-like behaviour in cognition using mice using R via WebAssembly in Serverless Computing",
+    "Biology", 
+    "KIT", 
+    "National Autonomous University of Mexico", 
+    "2019 - 2022", 
+    "Thesis: Effects of transcranial magnetic stimulation on the expression of cannabinoid receptors in a rat model of brain injury.", 
+    "Implementation of laboratory techniques of inmunology, genetics and behaviour"
 ) |>
     cvevents(when = "dates", what = "degree", where = "loc", para1 = "para1", para2 = "para2")
 ```
+
+
+# Publications
+
+- [Degenerados, ¿los enemigos de la sociedad?](https://ciencia.nexos.com.mx/degenerados-los-enemigos-de-la-sociedad/)
+- [Bueno para la salud, científicamente comprobado](https://ciencia.nexos.com.mx/author/santiago-garcia-rios/)
+- Alzheimer
+- SSRI
