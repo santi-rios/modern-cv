@@ -8,4 +8,4 @@ contributes:
       filters: 
         - styles.lua
       template: template.tex
-      latex-auto-install: false
+      latex-auto-install: true

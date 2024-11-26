@@ -5,28 +5,29 @@ tagline:
   field1: Santiago Garcia Rios
   field2: Behavior Analyst
   field3: Neurobiologist
-  colored: santiago_gr@ciencias.unam.mx
+  colored: santiagoboo99@gmail.com
   field5: Mexico City, Mexico
 format:
   modern-cv-pdf: default
 cvfooter:
   left: "https://santi-rios.github.io/"
   right: "github.com/santi-rios"
-cvcolor: 	FF9600 #without `#`
+cvcolor: 	142c63 #without `#`
 bgcolor: 616161
 cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvmeta:
-  - title: Status
-    text: Masters degree (Neurobiology and behaviour) at National Autonomous University of Mexico
+  - title: Current Status
+    text: "Pursuing a Master's degree in Neurobiology and Behavior at the National Autonomous University of Mexico (UNAM)"
   - title: Work
-    text: Statistics teacher with R in my own plataform orcaasesina.com
-  - title: Techs
-    text: R, bash, Python, Docker, \LaTeX
-  - title: Language
-    text: English (C2), Spanish (Native)
+    text: "Statistics teacher using R on my e-learning platform orcaasesina.com, developed with Moodle"
+  - title: Skills
+    text: R, Bash, Python, Docker, \LaTeX
+  - title: Languages
+    text: "English (C2), Spanish (Native)"
 execute:
   echo: false
 ---
+
 
 ```{r}
 #| label: cvevents
@@ -55,69 +56,69 @@ cvevents <- function(tbl, when, what, where, para1,para2) {
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details, ~para1, ~para2,
-    "Development of data science techniques", 
-    "Masters at UNAM, Mexico City", 
-    "since 2022",
-    "Topology analysis of proteins", 
-    "Video Tracking of behaviour and develope apps to analysis using serverless R", 
-    "Implementation of statistical tools to enhance cognitive defficits in mice using R",
 
-    "Writing of Science comunication papers", 
-    "University of Manchester", 
-    "2021 - 2022",
-    "Nexos", 
-    "Writing about Science Methodology and mental dessease", 
-    "4 articles published",
+    "Development of Data Science Techniques", 
+    "Master's Program at UNAM", 
+    "2022 - Present",
+    "Thesis work", 
+    "Video tracking of behavior and development of apps for analysis using serverless R", 
+    "Implementation of statistical tools to analyze cognitive deficits in mice using R",
 
-    "Researcher program", 
+    "Applying the Euler Characteristic Transform to protein structures", 
+    "Michigan State University", 
+    "2022-Present",
+    "Thesis work", 
+    "Understanding and Applying the ECT to Measure the Shape of protein structures", 
+    "Publication in progress",
+
+    "Research Program Participant", 
     "Faculty of Medicine, UNAM, Mexico City", 
     "2017 - 2020", 
-    "thesis", 
-    "Study brain injury and behavioural effects", 
-    "Results presented at international meeting Neuroscience, 2019 at Chicago, Ilinois",
+    "Thesis work", 
+    "Studied brain injury and behavioral effects", 
+    "Presented results at the Neuroscience 2019 international meeting in Chicago, Illinois",
 
-    "Short Research stay", 
-    "Neurobiology Institute, UNAM, Mexico City", 
+    "Short Research Stay", 
+    "Neurobiology Institute, UNAM", 
     "2015", 
-    "with Dr. Federico Ratonni", 
-    "Research program Younglings to Research",
-    "Study Cognition behaviour analysis using optogenetics techniques", 
+    "With Dr. Federico Ratonni", 
+    "Participated in the Younglings to Research program",
+    "Studied cognitive behavior analysis using optogenetic techniques", 
 
-    "Short Research stay", 
+    "Short Research Stay", 
     "Cell Physiology Institute, UNAM, Mexico City", 
     "2014", 
-    "with Dr. Jesus Adolfo Garcia Sainz", 
-    "Research program Younglings to Research",
-    "Study techniques and methods to analyze G-couples proteins" 
+    "With Dr. Jesus Adolfo Garcia Sainz", 
+    "Participated in the Younglings to Research program",
+    "Studied techniques and methods to analyze G-coupled proteins" 
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", para1 = "para1", para2 = "para2")
 ```
 
 # Education
 
-```{r }
+```{r}
 #| label: education
 #| output: asis
+
 tibble::tribble(
     ~degree, ~uni, ~loc, ~dates, ~para1, ~para2,
-    "Masters in Science", "National Autonomous University of Mexico", "National Autonomous University of Mexico", 
-    "2022 - 2024", 
-    "Thesis: Characterization of fluoxetine effects on behaviour and spatial learning in a mice model of mild stress", 
-    "Developed and implemented new methods to assess depressive-like behaviour in cognition using mice using R via WebAssembly in Serverless Computing",
-    "Biology", 
-    "KIT", 
+    "Master of Science in Neurobiology and Behavior", 
     "National Autonomous University of Mexico", 
+    "UNAM, Mexico City", 
+    "2022 - 2024", 
+    "Thesis: Characterization of fluoxetine effects on behavior and spatial learning in a mouse model of mild stress", 
+    "Developed and implemented new methods to assess depressive-like behavior and cognition using R via WebAssembly in serverless computing",
+    
+    "Bachelor of Science in Biology", 
+    "National Autonomous University of Mexico", 
+    "UNAM, Mexico City", 
     "2019 - 2022", 
-    "Thesis: Effects of transcranial magnetic stimulation on the expression of cannabinoid receptors in a rat model of brain injury.", 
-    "Implementation of laboratory techniques of inmunology, genetics and behaviour"
+    "Thesis: Effects of transcranial magnetic stimulation on the expression of cannabinoid receptors in a rat model of brain injury", 
+    "Implemented laboratory techniques in immunology, genetics, and behavior"
 ) |>
     cvevents(when = "dates", what = "degree", where = "loc", para1 = "para1", para2 = "para2")
+
 ```
 
 
-# Publications
-
-- [Degenerados, ¿los enemigos de la sociedad?](https://ciencia.nexos.com.mx/degenerados-los-enemigos-de-la-sociedad/)
-- [Bueno para la salud, científicamente comprobado](https://ciencia.nexos.com.mx/author/santiago-garcia-rios/)
-- Alzheimer
-- SSRI
