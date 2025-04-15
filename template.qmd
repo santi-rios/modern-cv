@@ -1,12 +1,12 @@
 ---
-author: Santiago G. Rios
+author: Santiago García-Rios
 title: Analista de Conducta Experimental
 tagline: 
-  field1: Santiago Garcia Rios
-  field2: Analista de Conducta
-  field3: Neurobiólogo
+  field1: Santiago
+  field2: "https://santi-rios.github.io/"
+  field3: Neurobiólogo Computacional
   colored: santiagoboo99@gmail.com
-  field5: Ciudad de México, México
+  field5: CDMX, México
 format:
   modern-cv-pdf: default
 cvfooter:
@@ -55,14 +55,14 @@ tibble::tribble(
     ~grado, ~universidad, ~ubicacion, ~fechas, ~detalle1, ~detalle2,
     "Maestría en Ciencias en Neurobiología y Conducta", 
     "Universidad Nacional Autónoma de México", 
-    "UNAM, Ciudad de México", 
+    "UNAM, CDMX", 
     "2022 - 2025", 
     "Tesis: Caracterización de los efectos de la fluoxetina en la conducta y el aprendizaje espacial en un modelo de estrés leve en ratones", 
     "Desarrollé e implementé nuevos métodos para evaluar conductas similares a la depresión y cognición usando R via WebAssembly en computación serverless",
     
     "Licenciatura en Biología", 
     "Universidad Nacional Autónoma de México", 
-    "UNAM, Ciudad de México", 
+    "UNAM, CDMX", 
     "2019 - 2022", 
     "Tesis: Efectos de la estimulación magnética transcraneal en la expresión de receptores cannabinoides en un modelo de lesión cerebral en ratas", 
     "Implementé técnicas de laboratorio en inmunología, genética y conducta"
